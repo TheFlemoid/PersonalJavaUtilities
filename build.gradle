@@ -7,7 +7,11 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.google.guava:guava:29.0-jre'
-
     testImplementation 'junit:junit:4.13'
+}
+
+jar {
+    manifest {
+        attributes("Automatic-Module-Name": "com.dobby.utils.net")
+    }
 }
