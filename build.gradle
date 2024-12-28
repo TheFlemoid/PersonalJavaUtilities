@@ -12,6 +12,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes("Automatic-Module-Name": "com.dobby.utils.net")
+        attributes("Automatic-Module-Name": "com.dobby.utils")
     }
 }
